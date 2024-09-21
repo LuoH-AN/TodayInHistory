@@ -1,0 +1,762 @@
+[
+    {
+        "year": "363",
+        "content": "罗马发生了一场大火，导致巴拉丁诺山阿波罗神庙被毁。",
+        "type": "event"
+    },
+    {
+        "year": "1277",
+        "content": "安茹的查理以一大笔钱换取对耶路撒冷王国的所有权。",
+        "type": "event"
+    },
+    {
+        "year": "1314",
+        "content": "法国卡佩王朝国王腓力四世以火刑处死圣殿骑士团最后一任大团长雅克·德·莫莱。",
+        "type": "event"
+    },
+    {
+        "year": "1357",
+        "content": "元朝末年红巾军刘福通部将领毛贵攻下胶州（今山东胶州）。",
+        "type": "event"
+    },
+    {
+        "year": "1438",
+        "content": "在西吉斯蒙德逝世后，德意志选帝侯选举阿尔布雷希特二世继任罗马人的国王。",
+        "type": "event"
+    },
+    {
+        "year": "1850",
+        "content": "美国运通成立。",
+        "type": "event"
+    },
+    {
+        "year": "1871",
+        "content": "由于法国在普法战争中惨败，国民自卫军成员在巴黎建立短暂政权巴黎公社。",
+        "type": "event"
+    },
+    {
+        "year": "1900",
+        "content": "阿贾克斯足球俱乐部成立。",
+        "type": "event"
+    },
+    {
+        "year": "1913",
+        "content": "统治希腊近50年的希腊国王乔治一世在塞萨洛尼基遇刺身亡，王储康斯坦丁一世继承王位。",
+        "type": "event"
+    },
+    {
+        "year": "1921",
+        "content": "波兰、俄罗斯、乌克兰在拉脱维亚里加签署确定边界的《里加和约》，波苏战争结束。",
+        "type": "event"
+    },
+    {
+        "year": "1922",
+        "content": "印度民族主义运动领袖圣雄甘地因实行不合作运动而被判监禁6年。",
+        "type": "event"
+    },
+    {
+        "year": "1926",
+        "content": "中国北平的学生和市民举行游行示威，北洋政府武力镇压，造成47人死亡，三·一八惨案发生。",
+        "type": "event"
+    },
+    {
+        "year": "1926",
+        "content": "希腊的国家科学院，最高研究机构雅典科学院成立。",
+        "type": "event"
+    },
+    {
+        "year": "1939",
+        "content": "匈牙利王国占领喀尔巴阡乌克兰。",
+        "type": "event"
+    },
+    {
+        "year": "1950",
+        "content": "中共中央发布关于镇压反革命活动的指示。",
+        "type": "event"
+    },
+    {
+        "year": "1959",
+        "content": "藏区骚乱：第十四世达赖喇嘛在西藏拉萨的色拉寺避难后，中国军队轰炸了该寺院，造成严重破坏，数百名比丘丧生。",
+        "type": "event"
+    },
+    {
+        "year": "1962",
+        "content": "法国和阿尔及利亚在法国的埃维昂莱班签订停火协议（英语：Évian Accords），阿尔及利亚战争结束。",
+        "type": "event"
+    },
+    {
+        "year": "1965",
+        "content": "苏联太空人阿列克谢·列昂诺夫在上升2号任务中，成为首位进行舱外活动的人类。",
+        "type": "event"
+    },
+    {
+        "year": "1970",
+        "content": "柬埔寨政客朗诺、施里玛达在美国支持下发动政变废黜正在苏联访问的西哈努克亲王，西哈努克亲王流亡中国。柬埔寨新政府软禁西哈努克的母亲哥沙曼王后。",
+        "type": "event"
+    },
+    {
+        "year": "1975",
+        "content": "已故希腊船王欧纳西斯下葬。",
+        "type": "event"
+    },
+    {
+        "year": "1978",
+        "content": "中华人民共和国全国科学大会在北京人民大会堂开幕。",
+        "type": "event"
+    },
+    {
+        "year": "1983",
+        "content": "中国四川卧龙国家级自然保护区建立。",
+        "type": "event"
+    },
+    {
+        "year": "1990",
+        "content": "德意志民主共和国（东德）举行最后一次选举。",
+        "type": "event"
+    },
+    {
+        "year": "1996",
+        "content": "台湾第一次总统直选在即，台湾海峡形势紧张，中国人民解放军南京军区在台海举行三军联合演习。",
+        "type": "event"
+    },
+    {
+        "year": "1997",
+        "content": "南昆铁路全线铺通。",
+        "type": "event"
+    },
+    {
+        "year": "1999",
+        "content": "台湾台北市正式率先启用行人倒数计时显示器，俗称小绿人。",
+        "type": "event"
+    },
+    {
+        "year": "2000",
+        "content": "中华民国第2次总统民选，民进党候选人陈水扁以不足半数得票当选，形成中华民国政治史上首次政党轮替。",
+        "type": "event"
+    },
+    {
+        "year": "2004",
+        "content": "山东省即墨市举办了一次盛大的“祭海节”活动。",
+        "type": "event"
+    },
+    {
+        "year": "2014",
+        "content": "不满政府签署《海峡两岸服务贸易协议》的台湾学生与群众占领立法院议场，太阳花学运爆发。",
+        "type": "event"
+    },
+    {
+        "year": "2014",
+        "content": "俄罗斯与克里米亚共和国在克里姆林宫签署条约，宣称克里米亚正式加入俄罗斯。",
+        "type": "event"
+    },
+    {
+        "year": "2019",
+        "content": "香港港铁发生列车相撞事故，两列荃湾线列车于中环站附近相撞，受事故影响荃湾线列车服务只能由荃湾站来往金钟站。",
+        "type": "event"
+    },
+    {
+        "year": "2019",
+        "content": "叙利亚内战：美国空军在上巴古斯实施空袭，造成64名平民死亡。",
+        "type": "event"
+    },
+    {
+        "year": "2022",
+        "content": "位于土耳其达达尼尔海峡的1915恰纳卡莱大桥正式通车，取代日本明石海峡大桥成为世界最长的吊桥。",
+        "type": "event"
+    },
+    {
+        "year": "2022",
+        "content": "纪念俄罗斯吞并克里米亚八周年的大型集会“为了一个没有纳粹主义的世界”在俄罗斯首都莫斯科卢日尼基体育场举行。",
+        "type": "event"
+    },
+    {
+        "year": "1690",
+        "content": "克里斯蒂安·哥德巴赫，德国数学家（1764年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1704",
+        "content": "爱新觉罗弘时，清朝雍正帝第三子（1727年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1782",
+        "content": "约翰·卡德威尔·卡尔霍恩，美国政治人物，第7任美国副总统（1850年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1828",
+        "content": "威廉·兰德尔·克里默，英国政治家、社会活动家，1903年诺贝尔和平奖得主（1908年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1834",
+        "content": "江藤新平，日本政治人物（1874年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1837",
+        "content": "格罗弗·克利夫兰，美国政治人物，第22、24任美国总统（1908年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1842",
+        "content": "斯特凡·马拉美，法国诗人、文学评论家（1898年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1844",
+        "content": "尼古拉·里姆斯基-科萨科夫，俄罗斯作曲家（1908年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1845",
+        "content": "亨利·胡鲁鲁·皮特曼，美国联邦军士兵（1863年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1847",
+        "content": "威廉·奥康奈尔·布拉德利，美国政治家，曾任肯塔基州州长、联邦参议员（1914年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1848",
+        "content": "路易丝公主，英国王室（1939年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1858",
+        "content": "鲁道夫·狄塞尔，德国工程师，柴油发动机的发明者（1913年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1869",
+        "content": "内维尔·张伯伦，英国首相（1940年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1877",
+        "content": "爱德加·凯西，美国预言家（1945年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1877",
+        "content": "克林·希尔，澳大利亚职业板球运动员（1945年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1889",
+        "content": "乔治·亚历山大·克林斯，比利时音乐家，铁达尼号小提琴手（1912年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1893",
+        "content": "白崇禧，中国军事人物（1966年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1903",
+        "content": "埃·奥·卜劳恩，德国漫画家（1944年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1907",
+        "content": "雅科夫·朱加什维利，苏联陆军中尉（1943年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1928",
+        "content": "菲德尔·瓦尔迪斯·罗慕斯，菲律宾政治人物，第12任菲律宾总统（2022年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1928",
+        "content": "里纳特·卡尔松，瑞典数学家",
+        "type": "birth"
+    },
+    {
+        "year": "1936",
+        "content": "弗雷德里克·威廉·戴克拉克，南非政治家，第7任南非国家总统及第1任南非副总统，1993年诺贝尔和平奖得主（2021年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1938",
+        "content": "沙希·卡浦尔，印度演员和导演（2017年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1941",
+        "content": "黄沾，香港填词人、作曲人、广告人、作家、艺人（2004年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1941",
+        "content": "郑国江，香港填词人",
+        "type": "birth"
+    },
+    {
+        "year": "1947",
+        "content": "黛博拉·利普斯塔特，美国历史学家、外交官",
+        "type": "birth"
+    },
+    {
+        "year": "1952",
+        "content": "萨洛梅·祖拉比什维利，乔治亚政治人物，现任乔治亚总统",
+        "type": "birth"
+    },
+    {
+        "year": "1955",
+        "content": "安多尼·纳吉布，埃及天主教枢机（2022年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1957",
+        "content": "拉娜·帕塔克，印度女演员、导演",
+        "type": "birth"
+    },
+    {
+        "year": "1958",
+        "content": "姆巴伊·迪亚涅，塞内加尔军人（1994年逝世）",
+        "type": "birth"
+    },
+    {
+        "year": "1958",
+        "content": "冯小刚，中国导演",
+        "type": "birth"
+    },
+    {
+        "year": "1958",
+        "content": "何式凝，香港大学社会工作及社会行政学系副教授",
+        "type": "birth"
+    },
+    {
+        "year": "1959",
+        "content": "吕克·贝松，法国导演",
+        "type": "birth"
+    },
+    {
+        "year": "1960",
+        "content": "季炳雄，香港悍匪、罪犯",
+        "type": "birth"
+    },
+    {
+        "year": "1962",
+        "content": "丰川悦司，日本演员",
+        "type": "birth"
+    },
+    {
+        "year": "1963",
+        "content": "菅野洋子，日本作曲家、编曲家、音乐制作人",
+        "type": "birth"
+    },
+    {
+        "year": "1964",
+        "content": "金井美香，日本女性声优",
+        "type": "birth"
+    },
+    {
+        "year": "1966",
+        "content": "蔡幸娟，台湾歌手",
+        "type": "birth"
+    },
+    {
+        "year": "1967",
+        "content": "楠大典，日本男性声优",
+        "type": "birth"
+    },
+    {
+        "year": "1968",
+        "content": "胡军，中国演员",
+        "type": "birth"
+    },
+    {
+        "year": "1968",
+        "content": "张锡铭，台湾罪犯",
+        "type": "birth"
+    },
+    {
+        "year": "1968",
+        "content": "三木真一郎，日本男性声优",
+        "type": "birth"
+    },
+    {
+        "year": "1969",
+        "content": "瓦西里·伊万丘克，乌克兰国际象棋选手",
+        "type": "birth"
+    },
+    {
+        "year": "1970",
+        "content": "拉蒂法女皇，美国饶舌歌手、模特儿、女演员",
+        "type": "birth"
+    },
+    {
+        "year": "1971",
+        "content": "郑埻夏，韩国喜剧演员、主持人",
+        "type": "birth"
+    },
+    {
+        "year": "1972",
+        "content": "郑丽丽，香港资深女配音员",
+        "type": "birth"
+    },
+    {
+        "year": "1976",
+        "content": "范玮琪，台湾歌手",
+        "type": "birth"
+    },
+    {
+        "year": "1976",
+        "content": "本多RuRu，中国女歌手",
+        "type": "birth"
+    },
+    {
+        "year": "1976",
+        "content": "大家友和，日本棒球选手",
+        "type": "birth"
+    },
+    {
+        "year": "1977",
+        "content": "丹尼·梅菲，英格兰足球运动员",
+        "type": "birth"
+    },
+    {
+        "year": "1977",
+        "content": "威利·萨尼奥尔，法国足球运动员",
+        "type": "birth"
+    },
+    {
+        "year": "1977",
+        "content": "ZUN，日本同人游戏创作者",
+        "type": "birth"
+    },
+    {
+        "year": "1977",
+        "content": "史考特·德瑞森，美国导演、编剧、制片人",
+        "type": "birth"
+    },
+    {
+        "year": "1978",
+        "content": "黄泆潼，香港演员",
+        "type": "birth"
+    },
+    {
+        "year": "1978",
+        "content": "布莱恩·斯卡拉布莱恩，前NBA职业篮球员",
+        "type": "birth"
+    },
+    {
+        "year": "1979",
+        "content": "亚当·列维，美国歌手、吉他手",
+        "type": "birth"
+    },
+    {
+        "year": "1980",
+        "content": "索菲亚·迈尔斯，英国女演员",
+        "type": "birth"
+    },
+    {
+        "year": "1980",
+        "content": "阿列克谢·亚古丁，俄罗斯花样滑冰运动员",
+        "type": "birth"
+    },
+    {
+        "year": "1980",
+        "content": "娜塔莉亚·波克隆斯卡娅，克里米亚共和国总检察长",
+        "type": "birth"
+    },
+    {
+        "year": "1981",
+        "content": "张娜拉，韩国演员、歌手",
+        "type": "birth"
+    },
+    {
+        "year": "1981",
+        "content": "罗志焜，香港足球运动员",
+        "type": "birth"
+    },
+    {
+        "year": "1982",
+        "content": "谢坤达，台湾艺人",
+        "type": "birth"
+    },
+    {
+        "year": "1982",
+        "content": "吉井怜，日本艺人",
+        "type": "birth"
+    },
+    {
+        "year": "1982",
+        "content": "提摩·格洛克，德国F1赛车手",
+        "type": "birth"
+    },
+    {
+        "year": "1983",
+        "content": "安迪·索纳斯汀，美国棒球选手",
+        "type": "birth"
+    },
+    {
+        "year": "1984",
+        "content": "麦浚龙，香港男歌手",
+        "type": "birth"
+    },
+    {
+        "year": "1987",
+        "content": "马路·沙拉迪，阿根廷足球运动员",
+        "type": "birth"
+    },
+    {
+        "year": "1987",
+        "content": "丽贝卡·索尼，美国女子游泳运动员",
+        "type": "birth"
+    },
+    {
+        "year": "1989",
+        "content": "西野加奈，日本女歌手",
+        "type": "birth"
+    },
+    {
+        "year": "1989",
+        "content": "莉莉·柯林斯，美国演员",
+        "type": "birth"
+    },
+    {
+        "year": "1990",
+        "content": "黄永棋，香港男子羽球运动员",
+        "type": "birth"
+    },
+    {
+        "year": "1991",
+        "content": "伊藤节生，日本男性声优",
+        "type": "birth"
+    },
+    {
+        "year": "1991",
+        "content": "皮埃尔-于格·埃贝尔，法国职业网球运动员",
+        "type": "birth"
+    },
+    {
+        "year": "1993",
+        "content": "钟楚曦，中国女演员",
+        "type": "birth"
+    },
+    {
+        "year": "1995",
+        "content": "谢芷蕙，香港嫩模",
+        "type": "birth"
+    },
+    {
+        "year": "1995",
+        "content": "上西惠，日本偶像团体NMB48成员",
+        "type": "birth"
+    },
+    {
+        "year": "1996",
+        "content": "王以纶，台湾男子偶像团体SpeXial成员",
+        "type": "birth"
+    },
+    {
+        "year": "1996",
+        "content": "朱正廷，中国男子偶像团体NINE PERCENT成员、乐华七子队长",
+        "type": "birth"
+    },
+    {
+        "year": "1997",
+        "content": "侯志慧，中国女子举重运动员",
+        "type": "birth"
+    },
+    {
+        "year": "1997",
+        "content": "吕艾克·尤旺尼，纽西兰橄榄球运动员",
+        "type": "birth"
+    },
+    {
+        "year": "1998",
+        "content": "连淮伟，中国男子偶像团体IXFORM成员",
+        "type": "birth"
+    },
+    {
+        "year": "1998",
+        "content": "深田咏美，日本AV女优、YouTuber",
+        "type": "birth"
+    },
+    {
+        "year": "1998",
+        "content": "米尔蒂亚季斯·滕托格卢，希腊男子田径运动员",
+        "type": "birth"
+    },
+    {
+        "year": "2004",
+        "content": "李在希，韩国女子偶像团体Weeekly成员",
+        "type": "birth"
+    },
+    {
+        "year": "978",
+        "content": "殉教者爱德华，英格兰国王（962年出生）",
+        "type": "death"
+    },
+    {
+        "year": "1314",
+        "content": "雅克·德·莫莱，圣殿骑士团最后一任大团长（1243年出生）",
+        "type": "death"
+    },
+    {
+        "year": "1584",
+        "content": "伊凡四世，莫斯科大公，俄罗斯历史上第一位沙皇（1530年出生）",
+        "type": "death"
+    },
+    {
+        "year": "1745",
+        "content": "罗伯特·沃波尔，英国政治家，被普遍认为是史上第一位英国首相（1676年出生）",
+        "type": "death"
+    },
+    {
+        "year": "1856",
+        "content": "砵甸乍爵士，第一任香港总督（1789年出生）",
+        "type": "death"
+    },
+    {
+        "year": "1907",
+        "content": "班杰明·富兰克林·蒂利，美国海军职业军官（1848年出生）",
+        "type": "death"
+    },
+    {
+        "year": "1913",
+        "content": "乔治一世，希腊国王（1845年出生）",
+        "type": "death"
+    },
+    {
+        "year": "1926",
+        "content": "刘和珍，北京女子师范大学学生，三·一八惨案受难者之一（1904年出生）",
+        "type": "death"
+    },
+    {
+        "year": "1932",
+        "content": "马尔戈·卡托迪克罗摩，荷属东印度记者、作家（1890年出生）",
+        "type": "death"
+    },
+    {
+        "year": "1935",
+        "content": "詹如柏，中国共产党领导人物（1902年出生）",
+        "type": "death"
+    },
+    {
+        "year": "1936",
+        "content": "埃莱夫塞里奥斯·韦尼泽洛斯，希腊政治家，曾出任7次希腊首相（1864年出生）",
+        "type": "death"
+    },
+    {
+        "year": "1947",
+        "content": "高桥伊望，日本海军中将（1888年出生）",
+        "type": "death"
+    },
+    {
+        "year": "1964",
+        "content": "诺伯特·维纳，美国应用数学家（1894年出生）",
+        "type": "death"
+    },
+    {
+        "year": "1977",
+        "content": "马里安·恩古瓦比，刚果前总统、刚果劳动党创始人（1938年出生）",
+        "type": "death"
+    },
+    {
+        "year": "1980",
+        "content": "埃里希·弗洛姆，美国思想家（1900年出生）",
+        "type": "death"
+    },
+    {
+        "year": "1983",
+        "content": "翁贝托二世，义大利国王（1904年出生）",
+        "type": "death"
+    },
+    {
+        "year": "1996",
+        "content": "奥德修斯·埃里蒂斯，希腊诗人，1979年诺贝尔文学奖得主（1911年出生）",
+        "type": "death"
+    },
+    {
+        "year": "2003",
+        "content": "亚当·奥斯本（英语：Adam Osborne），英国电脑科学先驱（1939年出生）",
+        "type": "death"
+    },
+    {
+        "year": "2008",
+        "content": "安东尼·明格拉，英国电影导演、编剧（1954年出生）",
+        "type": "death"
+    },
+    {
+        "year": "2009",
+        "content": "娜塔莎·李察逊，英国女演员（1963年出生）",
+        "type": "death"
+    },
+    {
+        "year": "2015",
+        "content": "蒋仲苓，台湾前国防部长（1922年出生）",
+        "type": "death"
+    },
+    {
+        "year": "2015",
+        "content": "赵达裕，前中国国家足球队球员（1961年出生）",
+        "type": "death"
+    },
+    {
+        "year": "2016",
+        "content": "龚照胜，台湾前金管会主任委员（1955年出生）",
+        "type": "death"
+    },
+    {
+        "year": "2018",
+        "content": "李敖，台湾作家、政治评论员（1935年出生）",
+        "type": "death"
+    },
+    {
+        "year": "2022",
+        "content": "唐·扬，美国政治人物，曾任阿拉斯加州众议院议员（1933年出生）",
+        "type": "death"
+    },
+    {
+        "year": "2024",
+        "content": "托马斯·斯塔福德，美国太空人（1930年出生）",
+        "type": "death"
+    },
+    {
+        "year": "&#160;中华人民共和国",
+        "content": "全国爱肝日",
+        "type": "death"
+    },
+    {
+        "year": "&#160;土耳其",
+        "content": "烈士节",
+        "type": "death"
+    },
+    {
+        "year": "&#160;蒙古国",
+        "content": "军人节（英语：Mongolian military day）",
+        "type": "death"
+    },
+    {
+        "year": "&#160;印度",
+        "content": "兵工厂日",
+        "type": "death"
+    },
+    {
+        "year": "&#160;阿鲁巴",
+        "content": "旗帜日",
+        "type": "death"
+    },
+    {
+        "year": "维基共享资源中相关的多媒体资源",
+        "content": "3月18日",
+        "type": "death"
+    },
+    {
+        "year": ".mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\" :\"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\" · \";font-weight:bold}.mw-parser-output .hlist-pipe dd::after,.mw-parser-output .hlist-pipe li::after{content:\" | \";font-weight:normal}.mw-parser-output .hlist-hyphen dd::after,.mw-parser-output .hlist-hyphen li::after{content:\" - \";font-weight:normal}.mw-parser-output .hlist-comma dd::after,.mw-parser-output .hlist-comma li::after{content:\"、\";font-weight:normal}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\"（\"counter(listitem)\"\\a0 \"}.mw-parser-output ul.cslist,.mw-parser-output ul.sslist{margin:0;padding:0;display:inline-block;list-style:none}.mw-parser-output .cslist li,.mw-parser-output .sslist li{margin:0;display:inline-block}.mw-parser-output .cslist li::after{content:\"，\"}.mw-parser-output .sslist li::after{content:\"；\"}.mw-parser-output .cslist li:last-child::after,.mw-parser-output .sslist li:last-child::after{content:none}.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{text-align:center;padding-left:1em;padding-right:1em}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf;position:relative}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em;width:auto;padding-left:0.2em;position:absolute;left:1em}.mw-parser-output .navbox .mw-collapsible-toggle{margin-left:0.5em;position:absolute;right:1em}body.skin--responsive .mw-parser-output .navbox-image img{max-width:none!important}@media print{body.ns-0 .mw-parser-output .navbox{display:none!important}}.mw-parser-output .navbar{display:inline;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:\"[ \"}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:\" ]\"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:110%;margin:0 8em}.mw-parser-output .navbar-ct-mini{font-size:110%;margin:0 5em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media print{.mw-parser-output .navbar{display:none!important}}查论编月份与日期今天",
+        "content": "2024年9月21日 [刷新&#93;1月",
+        "type": "death"
+    },
+    {
+        "year": "分类",
+        "content": "​3月各日",
+        "type": "death"
+    }
+]
