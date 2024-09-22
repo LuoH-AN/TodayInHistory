@@ -106,7 +106,7 @@
     },
     {
         "year": "1966",
-        "content": ".mw-parser-output .template-facttext{background-color:var(--background-color-neutral,#eaecf0);color:inherit;margin:-.3em 0;padding:.3em 0}人民日报发表文章，掀起工业学大庆的浪潮。&#91;来源请求&#93;",
+        "content": "人民日报发表文章，掀起工业学大庆的浪潮。",
         "type": "event"
     },
     {
@@ -141,7 +141,7 @@
     },
     {
         "year": "1988",
-        "content": "香港廉政公署拘捕香港联合交易所高层人员&#91;谁？&#93;。",
+        "content": "香港廉政公署拘捕香港联合交易所高层人员。",
         "type": "event"
     },
     {
@@ -616,7 +616,7 @@
     },
     {
         "year": "2014",
-        "content": "李泰祥，台湾音乐家&#91;1&#93;（1941年出生）",
+        "content": "李泰祥，台湾音乐家（1941年出生）",
         "type": "death"
     },
     {
