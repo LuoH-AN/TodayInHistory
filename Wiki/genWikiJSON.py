@@ -1,50 +1,60 @@
-import os
+import argparse
 import json
+import os
 
-typeMapping = {'1': 'event', '2': 'birth', '3': 'death'}
+TYPE_MAPPING = {"1": "event", "2": "birth", "3": "death"}
 
-def processLine(line, folderType):
-    if '：' in line:
-        year, content = line.split('：', 1)
-        year = formatYear(year.strip())
-        return {
-            'year': year,
-            'content': content.strip(),
-            'type': typeMapping[folderType]
-        }
-    return None
 
-def formatYear(year):
-    return year.replace('前', '-').replace('年', '')
+def format_year(year):
+    return year.replace("前", "-").replace("年", "").strip()
 
-def readFile(filepath, folderType):
+
+def parse_txt(file_path, entry_type):
     entries = []
-    with open(filepath, 'r', encoding='utf-8') as file:
+    with open(file_path, "r", encoding="utf-8") as file:
         for line in file:
-            entry = processLine(line, folderType)
-            if entry:
-                entries.append(entry)
+            line = line.strip()
+            if not line or "：" not in line:
+                continue
+            year, content = line.split("：", 1)
+            entries.append({
+                "year": format_year(year),
+                "content": content.strip(),
+                "type": entry_type,
+            })
     return entries
 
-def generateJson(wikiTxtDir, outputDir):
-    if not os.path.exists(outputDir):
-        os.makedirs(outputDir)
 
-    for filename in os.listdir(os.path.join(wikiTxtDir, '1')):
-        if filename.endswith('.txt'):
-            baseName = filename.replace('月', '-').replace('日.txt', '')
+def main():
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    parser = argparse.ArgumentParser(description="将分节 TXT 合并为每日 JSON")
+    parser.add_argument("--input-dir", default=os.path.join(script_dir, "WikiTXT"),
+                        help="TXT 目录（默认: 脚本同级 WikiTXT）")
+    parser.add_argument("--output-dir", default=os.path.join(script_dir, "WikiJson"),
+                        help="JSON 输出目录（默认: 脚本同级 WikiJson）")
+    args = parser.parse_args()
 
-            allEntries = []
-            for folderType in ['1', '2', '3']:
-                filepath = os.path.join(wikiTxtDir, folderType, filename)
-                if os.path.exists(filepath):
-                    allEntries.extend(readFile(filepath, folderType))
+    events_dir = os.path.join(args.input_dir, "1")
+    if not os.path.isdir(events_dir):
+        raise SystemExit(f"输入目录不存在: {events_dir}，请先运行 genWikiTXT.py")
 
-            outputFilepath = os.path.join(outputDir, f"{baseName}.json")
-            with open(outputFilepath, 'w', encoding='utf-8') as jsonFile:
-                json.dump(allEntries, jsonFile, ensure_ascii=False, indent=4)
-                print(f"完成 {outputFilepath}")
+    os.makedirs(args.output_dir, exist_ok=True)
+    for file_name in sorted(os.listdir(events_dir)):
+        if not file_name.endswith(".txt"):
+            continue
+        entries = []
+        for folder, entry_type in TYPE_MAPPING.items():
+            txt_path = os.path.join(args.input_dir, folder, file_name)
+            if os.path.exists(txt_path):
+                entries.extend(parse_txt(txt_path, entry_type))
+        base_name = file_name.replace("月", "-").replace("日.txt", "")
+        out_path = os.path.join(args.output_dir, f"{base_name}.json")
+        with open(out_path, "w", encoding="utf-8") as json_file:
+            json.dump(entries, json_file, ensure_ascii=False, indent=4)
+        print(f"完成 {out_path} ({len(entries)} 条)")
 
-wikiTxtDirectory = "WikiTXT"
-outputDirectory = "WikiJson"
-generateJson(wikiTxtDirectory, outputDirectory)
+    print(f"完成: 输出目录 {args.output_dir}")
+
+
+if __name__ == "__main__":
+    main()

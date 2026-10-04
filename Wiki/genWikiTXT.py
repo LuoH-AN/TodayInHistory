@@ -1,83 +1,84 @@
+import argparse
 import os
 import re
 
-tagRe = re.compile(r'<[^>]+>')
+from bs4 import BeautifulSoup
 
-def ensureOutputDirectories(outputDir):
-    for i in range(1, 4):
-        os.makedirs(f'{outputDir}/{i}', exist_ok=True)
+SECTION_ALIASES = {
+    "大事记": "1",
+    "大事迹": "1",
+    "大事纪": "1",
+    "出生": "2",
+    "逝世": "3",
+}
 
-def readFile(filePath):
-    with open(filePath, 'r', encoding='utf-8') as f:
-        return f.read()
 
-def writeFile(filePath, content):
-    with open(filePath, 'w', encoding='utf-8') as f:
-        f.write(content)
+def collect_li_text(li):
+    parts = []
+    for child in li.children:
+        name = getattr(child, "name", None)
+        if name in ("sup", "ul", "ol"):
+            continue
+        if isinstance(child, str):
+            parts.append(child)
+        else:
+            parts.append(child.get_text(" ", strip=True))
+    return re.sub(r"\s+", " ", "".join(parts)).strip()
 
-def processHtmlContent(content):
-    content = content.replace('节假日与风俗', '节假日和习俗')
-    content = content.replace('节假日与习俗', '节假日和习俗')
-    content = content.replace('节假日和风俗', '节假日和习俗')
-    content = content.replace('大事记', '大事迹')
-    content = content.replace('大事纪', '大事迹')
-    lines = content.splitlines()
-    sections = {'section1': [], 'section2': [], 'section3': []}
-    currentSection = None
-    for line in lines:
-        cleanLine = tagRe.sub('', line)
-        if 'h2 id="大事迹"' in line:
-            currentSection = sections['section1']
-        elif 'h2 id="出生"' in line:
-            currentSection = sections['section2']
-        elif 'h2 id="逝世"' in line:
-            currentSection = sections['section3']
-        elif 'h2 id="节假日和习俗"' in line:
-            currentSection = None
-        if currentSection is not None and currentSection != sections['section3']:
-            currentSection.append(cleanLine)
-        if currentSection == sections['section3'] and 'h2 id="节假日和习俗"' not in line:
-            sections['section3'].append(cleanLine)
+
+def extract_section(heading):
+    container = heading.parent if heading.parent.name == "div" else heading
+    items = []
+    for sibling in container.find_next_siblings():
+        if sibling.find("h2"):
+            break
+        for li in sibling.find_all("li"):
+            text = collect_li_text(li)
+            if text:
+                items.append(text)
+    return items
+
+
+def parse_html(html):
+    soup = BeautifulSoup(html, "html.parser")
+    sections = {}
+    for h2 in soup.find_all("h2"):
+        folder = SECTION_ALIASES.get(h2.get_text(strip=True))
+        if folder and folder not in sections:
+            sections[folder] = extract_section(h2)
     return sections
 
-def saveSections(outputDir, fileNameNoExt, sections):
-    for i, section in enumerate(['section1', 'section2', 'section3'], start=1):
-        if sections[section]:
-            writeFile(f'{outputDir}/{i}/{fileNameNoExt}.txt', '\n'.join(sections[section]))
 
-def cleanTextFile(txtFile):
-    if not os.path.exists(txtFile):
-        return
-    with open(txtFile, 'r', encoding='utf-8') as f:
-        txtLines = f.readlines()
-    centuryPattern = re.compile(r'^\d+世纪')
-    for idx, txtLine in enumerate(txtLines):
-        if centuryPattern.search(txtLine):
-            txtLines = txtLines[idx:]
-            break
-    txtLines = [line for line in txtLines if '[编辑]' not in line]
-    content = ''.join(txtLines)
-    content = re.sub(r'&#91;.*?&#93;', '', content)
-    content = re.sub(r'&#160;', '', content)
-    content = re.sub(r'\.mw-parser-output[^{]*\{[^}]*\}', '', content)
-    writeFile(txtFile, content)
+def main():
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    parser = argparse.ArgumentParser(description="将维基百科 HTML 转换为分节 TXT")
+    parser.add_argument("--input-dir", default=os.path.join(script_dir, "WikiHTML"),
+                        help="HTML 目录（默认: 脚本同级 WikiHTML）")
+    parser.add_argument("--output-dir", default=os.path.join(script_dir, "WikiTXT"),
+                        help="TXT 输出目录（默认: 脚本同级 WikiTXT）")
+    args = parser.parse_args()
 
-def processHtmlFiles(directory, outputDir):
-    ensureOutputDirectories(outputDir)
-    for root, _, files in os.walk(directory):
-        for file in files:
-            if file.endswith(".html"):
-                filePath = os.path.join(root, file)
-                fileNameNoExt = os.path.splitext(file)[0]
-                content = readFile(filePath)
-                sections = processHtmlContent(content)
-                saveSections(outputDir, fileNameNoExt, sections)
-                for i in range(1, 4):
-                    txtFile = f'{outputDir}/{i}/{fileNameNoExt}.txt'
-                    cleanTextFile(txtFile)
-                print(f"处理 {file}")
+    if not os.path.isdir(args.input_dir):
+        raise SystemExit(f"输入目录不存在: {args.input_dir}，请先运行 saveWikiHTML.py")
 
-directory = "WikiHTML"
-outputDir = "WikiTXT"
+    processed = 0
+    for file_name in sorted(os.listdir(args.input_dir)):
+        if not file_name.endswith(".html"):
+            continue
+        with open(os.path.join(args.input_dir, file_name), "r", encoding="utf-8") as file:
+            html = file.read()
+        sections = parse_html(html)
+        file_stem = os.path.splitext(file_name)[0]
+        for folder, items in sections.items():
+            section_dir = os.path.join(args.output_dir, folder)
+            os.makedirs(section_dir, exist_ok=True)
+            with open(os.path.join(section_dir, f"{file_stem}.txt"), "w", encoding="utf-8") as out:
+                out.write("\n".join(items) + "\n")
+        processed += 1
+        print(f"已处理 {file_name} ({processed})")
 
-processHtmlFiles(directory, outputDir)
+    print(f"完成: 共处理 {processed} 个 HTML 文件")
+
+
+if __name__ == "__main__":
+    main()
